@@ -3,56 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Mario Maita Orozco</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>Mario Maita Orozco</h1>
-        <p>Hey there</p>
+        <nav>
+            <div class="logo">Mario Maita Orozco</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div id="background"></div>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Introduce yourself here.</p>
+        <section id="about" class="about-section">
+            <h1>About Me</h1>
+            <p>Brief description about yourself.</p>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project Title</h3>
-                <p>Description of the project.</p>
+        <section id="cv" class="cv-section">
+            <h1>Curriculum Vitae</h1>
+            <p>Details about your professional experience, education, skills, etc.</p>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h2>Project 1</h2>
+                    <p>Description of Project 1</p>
+                    <a href="https://github.com/user/project1" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h2>Project 2</h2>
+                    <p>Description of Project 2</p>
+                    <a href="https://github.com/user/project2" target="_blank">View on GitHub</a>
+                </div>
+                <!-- Add more project cards as needed -->
             </div>
         </section>
 
-        <section id="cv">
-            <h2>CV</h2>
-            <p>Link to your CV or embed it here.</p>
-            <a href="your-cv-link.pdf" target="_blank">Download CV</a>
+        <section id="posts" class="posts-section">
+            <h1>Posts</h1>
+            <p>Links to blog posts or articles you've written.</p>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>How to reach you.</p>
-            <ul>
-                <li>Email: <a href=""></a></li>
-                <li>LinkedIn: <a href="" target="_blank">your-profile</a></li>
-            </ul>
+        <section id="contact" class="contact-section">
+            <h1>Contact</h1>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
         </section>
     </main>
 
     <footer>
+        <p>&copy; 2024 Mario Maita Orozco. All rights reserved.</p>
     </footer>
 
+    <script src="background.js"></script>
 </body>
 </html>
