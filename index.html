@@ -3,70 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mario Maita Orozco</title>
+    <title>ist me!</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">Mario Maita Orozco</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#cv">CV</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#posts">Posts</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Mario Maita Orozco</h1>
+        <p>Software dev, passionate about delving into diverse tech, ranging from C to TypeScript, always adapting to the challenge presented. I believe in the transformative power of technology to shape the world for the better.</p>
     </header>
-
-    <div id="background"></div>
-
-    <main>
-        <section id="about" class="about-section">
-            <h1>About Me</h1>
-            <p>Brief description about yourself.</p>
-        </section>
-
-        <section id="cv" class="cv-section">
-            <h1>Curriculum Vitae</h1>
-            <p>Details about your professional experience, education, skills, etc.</p>
-        </section>
-
-        <section id="projects" class="projects-section">
-            <h1>Projects</h1>
-            <div class="projects-container">
-                <div class="project-card">
-                    <h2>Project 1</h2>
-                    <p>Description of Project 1</p>
-                    <a href="https://github.com/user/project1" target="_blank">View on GitHub</a>
+    
+    <section id="projects">
+        <h2>Some Open Source Projects</h2>
+        <ul>
+            <li>
+                <img src="assets/short.svg" alt="url shortener">
+                <div class="project-details">
+                    <h3>URL Shortener Service</h3>
+                    <p>URL Shortener Service that allows users to submit long URLs and receive shortened versions. Supports multiple short URLs per user without authentication. The goal of this project was to gain hands-on experience with Rust for API development.</p>
+                    <a href="https://github.com/cito-lito/url-xs" target="_blank">View Project</a>
                 </div>
-                <div class="project-card">
-                    <h2>Project 2</h2>
-                    <p>Description of Project 2</p>
-                    <a href="https://github.com/user/project2" target="_blank">View on GitHub</a>
+            </li>
+            <li>
+                <img src="assets/ps2mouse.png" alt="get data from ps2 mouse">
+                <div class="project-details">
+                    <h3>PS2 Mouse Sensor Data</h3>
+                    <p>Get sensor data from a PS2 optical mouse.</p>
+                    <a href="https://github.com/cito-lito/C_Samples/tree/master/PS2_MOUSE" target="_blank">View Project</a>
                 </div>
-                <!-- Add more project cards as needed -->
-            </div>
-        </section>
-
-        <section id="posts" class="posts-section">
-            <h1>Posts</h1>
-            <p>Links to blog posts or articles you've written.</p>
-        </section>
-
-        <section id="contact" class="contact-section">
-            <h1>Contact</h1>
-            <p>Email: your.email@example.com</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
-        </section>
-    </main>
+            </li>
+            <li>
+                <!-- <img src="assets/sdk.png" alt="web3 sdk"> -->
+                <div class="project-details">
+                    <h3>Web3 SDK</h3>
+                    <p>SDK that allows users to observe Web3 Providers execution.</p>
+                    <a href="https://github.com/getsumer/sumer-sdk" target="_blank">View Project</a>
+                </div>
+            </li>
+            <li>
+                <img src="assets/dbot.png" alt="d_bot">
+                <div class="project-details">
+                    <h3>Two-driven wheels robot</h3>
+                    <p>Two-driven wheels robot that delivers treats to my dog.</p>
+                    <a href="https://github.com/cito-lito/d_bot" target="_blank">View Project</a>
+                </div>
+            </li>
+        </ul>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Mario Maita Orozco. All rights reserved.</p>
+        <div id="social-links">
+            <a href="https://github.com/cito-lito" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/mmo" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
     </footer>
 
-    <script src="background.js"></script>
 </body>
 </html>
